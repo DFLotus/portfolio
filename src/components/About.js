@@ -20,11 +20,10 @@ const About = () => {
                 </div>
             </div>
             <div className="about-qualification">
-                <h3>Skills</h3>
+                <h3>Skills</h3>{/*Work on skill bar, perhaps YT*/}
             </div>
         </div>
     )
 }
-
 
 export default About
