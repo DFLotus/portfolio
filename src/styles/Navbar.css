@@ -3,13 +3,13 @@
     src: url('../assets/REM-VariableFont_wght.ttf');
 }
 
-.nav-bar-container{
-    margin: 20px 0px;
-    padding: 0px 12px;    
-    background-color: transparent;
-    position: fixed;
+.nav-bar-container {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4); 
+    z-index: 2; 
 }
 
 .nav-card{
