@@ -2,16 +2,17 @@ import React from "react";
 import { Link } from "react-scroll";
 import '../styles/Navbar.css'
 
+
 const Navbar = () => {
     return (
-        <div className="nav-bar-container">
-            <nav className="nav-card">
-                <ul className="nav-items">
-                    <li><Link to="about-container" spy={true} smooth={true} duration={100}>About</Link></li>
-                    <li><a>Resume</a></li>
-                    <li><a>Projects</a></li>
-                    <li><a>Affiliations</a></li>
-                    <li><a>Contact</a></li>
+        <div className="container">
+            <nav className="nav-item-container">
+                <ul className="ul-items">
+                    <li className="link-ele"><Link to="" spy={true} smooth={true} duration={100}>About</Link></li>
+                    <li className="link-ele"><Link to="" spy={true} smooth={true} duration={100}>Resume</Link></li>
+                    <li className="link-ele"><Link to="" spy={true} smooth={true} duration={100}>Projects</Link></li>
+                    <li className="link-ele"><Link to="" spy={true} smooth={true} duration={100}>Affiliations</Link></li>
+                    <li className="link-ele"><Link to="" spy={true} smooth={true} duration={100}>Contact</Link></li>
                 </ul>
             </nav>
         </div>

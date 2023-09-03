@@ -1,6 +1,6 @@
 import React from "react";
-import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
+import Home from "./components/Home";
 import About from "./components/About";
 
 function App() {

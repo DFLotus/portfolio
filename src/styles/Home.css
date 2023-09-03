@@ -5,26 +5,20 @@ body{
 }
 
 .home-container {
-    overflow: hidden;
     background-size: cover;
     position: relative;
     align-items: center;
     justify-content: center;
-    height: 100vh;
 }
 
 .img-view {
-    right: 0;
-    top: 0;
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
     z-index: -1;
     width: 100%;
     height: 100%
 }
 
-.my-name {
+/*Start here*/
+.name-container {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -49,3 +43,54 @@ body{
     cursor: pointer;
     filter: drop-shadow(3px 2px 4px rgb(0 0 0 / 0.4));
 }
+
+.social-icon {
+    font-size: 3rem; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: scale(1.2); 
+}
+
+@media screen and (max-width: 760px) {
+    .img-view {
+        width: auto;
+        height: 50rem;
+    }
+
+    .name-container {
+        font-size: 18px;
+        white-space: nowrap;
+    }
+
+    .social-icon {
+        font-size: 2rem;
+        margin-right: 50px;
+        margin-left: -20px;
+        align-items: center;
+    }
+
+    .social-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .social-container li {
+        margin: 10px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024){
+    
+}
+
+
+
+
+
+/*I like this, if anything is going wrong its probly with media query or position being absolute
+  I also want the social container icons to pop and grow whenever there hovered
+*/ 
