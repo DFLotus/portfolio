@@ -83,14 +83,28 @@ body{
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024){
-    
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .img-view {
+        width: auto;
+        height: 60rem;
+    }
+    .name-container {
+        white-space: nowrap;
+    }
 }
 
+@media screen and (min-width: 769px) and (max-width:1440px) {
+    .name-container {
+        white-space: nowrap;
+    }
 
-
-
+    .img-view {
+        width: auto;
+        height: 60rem;
+    }
+}
 
 /*I like this, if anything is going wrong its probly with media query or position being absolute
   I also want the social container icons to pop and grow whenever there hovered
+  If anything is wrong look at the overflow and try doing *{} this causes a bug in the small screens but still could patch that 
 */ 

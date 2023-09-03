@@ -37,3 +37,8 @@
     font-family: rem;
     src: url('../assets/REM-VariableFont_wght.ttf');
 }
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 15rem;
+}

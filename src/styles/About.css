@@ -1,0 +1,121 @@
+body{
+    overflow-x: hidden;
+}
+
+.about-container{
+    background-color:   black;
+    text-align: center;
+}
+
+.about-info, .about-hook{
+    font-family: rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-info{
+    font-size: 16px;
+}
+
+.about-hook{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.img-container,.about-qualification{
+    color: white;
+    font-family: rem;
+    display: flex;
+}
+
+.photo-pic{
+    max-width: 200px;
+    max-height: 300px;
+    clip-path: circle();
+    padding-top: 25px;
+    margin-left: 45vh;
+}
+
+.about-content{
+    display: flex;
+    padding-left: 50px;
+    text-align: left;
+    font-size: 20px;
+    padding: 50px;
+    width: 45%;
+    color: white;
+    white-space: break-spaces;
+}
+
+.about-qualification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    padding-top: 50px;
+    color: chocolate;
+}
+
+@media screen and (max-width: 760px) {
+    .about-hook{
+        font-size: 20px;
+    }
+    .about-info{
+        font-size: 10px;
+    }
+
+    .photo-pic {
+        margin-left: 0;
+        max-width: 170px;
+        max-height: 230px;
+    }
+
+    .about-content {
+        font-size: 16px; /* Reduce font size for the text */
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .about-hook{
+        font-size: 25px;
+    }
+    .about-info{
+        font-size: 11px;
+    }
+
+    .photo-pic {
+        margin-left: 0;
+        max-width: 170px;
+        max-height: 230px;
+    }
+
+    .about-content {
+        font-size: 20px; /* Reduce font size for the text */
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width:1440px) {
+    .about-hook{
+        font-size: 25px;
+    }
+    .about-info{
+        font-size: 11px;
+    }
+
+    .photo-pic {
+        margin-left: 0;
+        max-width: 170px;
+        max-height: 230px;
+    }
+
+    .about-content {
+        font-size: 20px; /* Reduce font size for the text */
+        width: 100%;
+    }
+}
