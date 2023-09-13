@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    /*overflow-x: hidden;*/
 }
 
 .home-container {
@@ -17,7 +16,6 @@ body{
     height: 100%
 }
 
-/*Start here*/
 .name-container {
     position: absolute;
     top: 50%;
@@ -60,7 +58,7 @@ body{
 
     .img-view {
         width: auto;
-        height: 50rem;
+        height: 56rem;
     }
 
     .name-container {
