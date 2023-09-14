@@ -1,9 +1,11 @@
-.about-container{
-    background-color:   black;
+.about-container {
+    background-color: black;
     text-align: center;
 }
 
-.about-info, .about-hook{
+.about-info,
+.about-hook,
+.skill-title {
     font-family: rem;
     color: white;
     display: flex;
@@ -11,22 +13,23 @@
     align-items: center;
 }
 
-.about-info{
+.about-info {
     font-size: 16px;
 }
 
-.about-hook{
+.about-hook {
     font-size: 30px;
     font-weight: bold;
 }
 
-.img-container,.about-qualification{
+.img-container,
+.about-qualification {
     color: white;
     font-family: rem;
     display: flex;
 }
 
-.photo-pic{
+.photo-pic {
     max-width: 200px;
     max-height: 300px;
     clip-path: circle();
@@ -34,7 +37,7 @@
     margin-left: 45vh;
 }
 
-.about-content{
+.about-content {
     display: flex;
     padding-left: 50px;
     text-align: left;
@@ -45,7 +48,7 @@
     white-space: break-spaces;
 }
 
-.about-qualification{
+.about-qualification {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,11 +57,72 @@
     color: chocolate;
 }
 
+.skill-title {
+    margin-right: 90vh;
+}
+
+.skill-container {
+    width: 100%;
+    max-width: 130vh;
+    padding: 0 20px;
+    padding-left: 37vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 35px;
+
+}
+
+.skill-name {
+    color: white;
+    font-size: 12px;
+    font-family: rem;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.skill-bar {
+    height: 14px;
+    background: rgb(121, 119, 119);
+    border-radius: 3px;
+}
+
+.skill-level {
+    height: 14px;
+    background: rgb(119, 189, 8);
+    border-radius: 3px;
+    position: relative;
+}
+
+.skill-level::before {
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: rgb(241, 234, 234);
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.skill-level::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: rgb(241, 234, 234);
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+}
+
 @media screen and (max-width: 760px) {
-    .about-hook{
+    .about-hook {
         font-size: 20px;
     }
-    .about-info{
+
+    .about-info {
         font-size: 10px;
     }
 
@@ -77,10 +141,11 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .about-hook{
+    .about-hook {
         font-size: 25px;
     }
-    .about-info{
+
+    .about-info {
         font-size: 11px;
     }
 
@@ -98,10 +163,11 @@
 }
 
 @media screen and (min-width: 769px) and (max-width:1440px) {
-    .about-hook{
+    .about-hook {
         font-size: 25px;
     }
-    .about-info{
+
+    .about-info {
         font-size: 11px;
     }
 

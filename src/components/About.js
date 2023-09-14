@@ -19,11 +19,72 @@ const About = () => {
                     <p>{aboutContent}</p>
                 </div>
             </div>
-            {/*
-            <div className="about-content">
-                <p>{aboutContent}</p> 
+            <div className="skill-title">
+                <h1>Skills</h1>
+                
             </div>
-            */}
+
+            <div className="skill-container">
+                <div className="skills-listed">
+                    <div className="skill-name">
+                        <p>React.js</p>
+                    </div>
+                    <div className="skill-bar">
+                        <div className="skill-level" per="60%" style={{ maxWidth: '60%' }}></div>
+                    </div>
+                </div>
+
+                <div className="skills-listed">
+                    <div className="skill-name">
+                        <p>C++</p>
+                    </div>
+                    <div className="skill-bar">
+                        <div className="skill-level" per="70%" style={{ maxWidth: '70%' }}></div>
+                    </div>
+                </div>
+
+                <div className="skills-listed">
+                    <div className="skill-name">
+                        <p>Python</p>
+                    </div>
+                    <div className="skill-bar">
+                        <div className="skill-level" per="40%" style={{ maxWidth: '40%' }}></div>
+                    </div>
+                </div>
+
+
+
+
+                <div className="skills-listed">
+                    <div className="skill-name">
+                        <p>MS 365</p>
+                    </div>
+                    <div className="skill-bar">
+                        <div className="skill-level" per="80%" style={{ maxWidth: '80%' }}></div>
+                    </div>
+                </div>
+
+                <div className="skills-listed">
+                    <div className="skill-name">
+                        <p>Java</p>
+                    </div>
+                    <div className="skill-bar">
+                        <div className="skill-level" per="20%" style={{ maxWidth: '20%' }}></div>
+                    </div>
+                </div>
+
+                <div className="skills-listed">
+                    <div className="skill-name">
+                        <p>Git</p>
+                    </div>
+                    <div className="skill-bar">
+                        <div className="skill-level" per="60%" style={{ maxWidth: '60%' }}></div>
+                    </div>
+                </div>
+
+
+
+            </div>
         </div>
     )
 }
