@@ -3,8 +3,14 @@ import ProfilePic from '../assets/profile-picture.jpg'
 import '../styles/About.css'
 
 const aboutContent = "I'm seeking to learn more about the tech industry as well as machine learning and AI. I am also a Hunter College student, class of 2025 spring B.S. of Computer Science. My interests are growing, and I would like to learn more and focus on web development, data science and analysis, as well as back-end development"
+const googleDocResumeLink = "129uwyOsqHRL8gkg81wRCfl88ci6pPN_Y"
 
 const About = () => {
+    const resumePdfOpener = () => {
+        const exportUrl = `https://docs.google.com/document/d/${googleDocResumeLink}/export?format=pdf`;
+        window.open(exportUrl, '_blank');
+    };
+
     return (
         <div className="about-container">
             <div className="about-info">
@@ -21,9 +27,7 @@ const About = () => {
             </div>
             <div className="skill-title">
                 <h1>Skills</h1>
-                
             </div>
-
             <div className="skill-container">
                 <div className="skills-listed">
                     <div className="skill-name">
@@ -33,7 +37,6 @@ const About = () => {
                         <div className="skill-level" per="60%" style={{ maxWidth: '60%' }}></div>
                     </div>
                 </div>
-
                 <div className="skills-listed">
                     <div className="skill-name">
                         <p>C++</p>
@@ -42,7 +45,6 @@ const About = () => {
                         <div className="skill-level" per="70%" style={{ maxWidth: '70%' }}></div>
                     </div>
                 </div>
-
                 <div className="skills-listed">
                     <div className="skill-name">
                         <p>Python</p>
@@ -51,10 +53,6 @@ const About = () => {
                         <div className="skill-level" per="40%" style={{ maxWidth: '40%' }}></div>
                     </div>
                 </div>
-
-
-
-
                 <div className="skills-listed">
                     <div className="skill-name">
                         <p>MS 365</p>
@@ -63,7 +61,6 @@ const About = () => {
                         <div className="skill-level" per="80%" style={{ maxWidth: '80%' }}></div>
                     </div>
                 </div>
-
                 <div className="skills-listed">
                     <div className="skill-name">
                         <p>Java</p>
@@ -72,7 +69,6 @@ const About = () => {
                         <div className="skill-level" per="20%" style={{ maxWidth: '20%' }}></div>
                     </div>
                 </div>
-
                 <div className="skills-listed">
                     <div className="skill-name">
                         <p>Git</p>
@@ -81,9 +77,9 @@ const About = () => {
                         <div className="skill-level" per="60%" style={{ maxWidth: '60%' }}></div>
                     </div>
                 </div>
-
-
-
+            </div>
+            <div className="resume-container">
+                <button onClick={resumePdfOpener}><h1>Resume</h1></button>
             </div>
         </div>
     )
