@@ -79,7 +79,7 @@ const About = () => {
                 </div>
             </div>
             <div className="resume-container">
-                <button onClick={resumePdfOpener}><h1>Resume</h1></button>
+                <button className="resume-button" onClick={resumePdfOpener}><h1>Resume</h1></button>
             </div>
         </div>
     )

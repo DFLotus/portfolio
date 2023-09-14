@@ -113,6 +113,25 @@
     border-radius: 2px;
 }
 
+.resume-button {
+    background-color: rgb(119, 189, 8);
+    border: none;
+    border-radius: 6px;
+    padding: 1px 25px 1px 25px;
+    font-size: 9px;
+    margin: 35px 10px 50px 48px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.resume-button:hover {
+    background-color: rgb(24, 177, 90);
+}
+
+.resume-button:active{
+    transform: scale(0.96);
+}
+
 @media screen and (max-width: 760px) {
     .about-hook {
         font-size: 20px;
@@ -159,6 +178,10 @@
     .skill-level::after{
         margin-top: 12px;
         font-size: 5px;
+    }
+    
+    .resume-button{
+        margin: 35px 10px 50px 0px;
     }
 
 }
@@ -208,6 +231,10 @@
     .skill-level::after{
         margin-top: 10px;
         font-size: 5px;
+    }
+
+    .resume-button{
+        margin: 35px 10px 50px 0px;
     }
 
 }
