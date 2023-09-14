@@ -138,6 +138,33 @@
         width: 100%;
     }
 
+    .skill-title{
+        margin-right: 0;
+        font-size: 12px;
+    }
+
+    .skill-name{
+        margin-top: 10px;
+    }
+
+    .skill-container{
+        margin: 0;
+        padding: 0;
+    }
+
+    .skill-bar, .skill-level{
+        height: 10px;
+    }
+    
+    .skill-level::before{
+        margin-top: 12px;
+        font-size: 10px;
+    }
+    .skill-level::after{
+        margin-top: 12px;
+        font-size: 5px;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
