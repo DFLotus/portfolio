@@ -57,10 +57,6 @@
     color: chocolate;
 }
 
-.skill-title {
-    margin-right: 90vh;
-}
-
 .skill-container {
     width: 100%;
     max-width: 130vh;
@@ -187,9 +183,36 @@
         width: 100%;
     }
 
+    .skill-title{
+        margin-right: 0;
+        font-size: 12px;
+    }
+
+    .skill-name{
+        margin-top: 10px;
+    }
+
+    .skill-container{
+        margin: 0;
+        padding: 0;
+    }
+
+    .skill-bar, .skill-level{
+        height: 10px;
+    }
+    
+    .skill-level::before{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .skill-level::after{
+        margin-top: 10px;
+        font-size: 5px;
+    }
+
 }
 
-@media screen and (min-width: 769px) and (max-width:1440px) {
+@media screen and (min-width: 1024px) and (max-width:1440px) {
     .about-hook {
         font-size: 25px;
     }
@@ -207,5 +230,24 @@
     .about-content {
         font-size: 20px;
         width: 100%;
+    }
+
+    .skill-container{
+        margin-left: 60px;
+        width: 90%;
+        padding: 0;
+    }
+
+    .skill-bar, .skill-level{
+        height: 14px;
+    }
+    
+    .skill-level::before{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .skill-level::after{
+        margin-top: 10px;
+        font-size: 5px;
     }
 }
