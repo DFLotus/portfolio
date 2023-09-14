@@ -9,7 +9,7 @@ const Navbar = () => {
             <nav className="nav-item-container">
                 <ul className="ul-items">
                     <li className="link-ele"><Link to="about-hook" spy={true} smooth={true} duration={100}>About</Link></li>
-                    <li className="link-ele"><Link to="" spy={true} smooth={true} duration={100}>Resume</Link></li>
+                    <li className="link-ele"><Link to="experience-container" spy={true} smooth={true} duration={100}>Resume</Link></li>
                     <li className="link-ele"><Link to="" spy={true} smooth={true} duration={100}>Projects</Link></li>
                     <li className="link-ele"><Link to="" spy={true} smooth={true} duration={100}>Affiliations</Link></li>
                     <li className="link-ele"><Link to="" spy={true} smooth={true} duration={100}>Contact</Link></li>
