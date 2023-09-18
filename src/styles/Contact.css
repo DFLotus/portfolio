@@ -23,10 +23,13 @@
 
 .contact-header h1{
     color: whitesmoke;
+    padding-bottom: 20px;
 }
 
 .contact-header p{
     font-size: 15px;
+    color: lightgrey;
+    font-weight: bold;
 }
 
 .social-icons{
