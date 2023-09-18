@@ -41,8 +41,8 @@ const Project = () => {
                                 </div>
                                 <div className="pop-up-text">
                                     <h1>Personal Website</h1>
-                                    <FaReact className="project-icon" color={"#61DBFB"}/>
-                                    <BiLogoJavascript className="project-icon"/>
+                                    <FaReact className="project-icon" color={"#61DBFB"} />
+                                    <BiLogoJavascript className="project-icon" />
                                 </div>
                                 <div className="pop-up-button">
                                     <button onClick={imgClosed}>Close</button>
