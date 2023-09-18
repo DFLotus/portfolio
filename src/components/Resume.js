@@ -4,7 +4,7 @@ import '..//styles/Resume.css'
 const Resume = () => {
     return (
         <div className="experience-container">
-            Hello Resume
+            Resume Section WIP
         </div>
     )
 }
