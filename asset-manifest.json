@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.efb52407.css",
+    "main.js": "/portfolio/static/js/main.d0705c28.js",
+    "static/media/personal-website.png": "/portfolio/static/media/personal-website.51cb7f8670876cfe050d.png",
+    "static/media/profile-picture.jpg": "/portfolio/static/media/profile-picture.7cf8c4104df54541afec.jpg",
+    "static/media/home-wallpaper.jpeg": "/portfolio/static/media/home-wallpaper.8af99cf4e63cc78e261d.jpeg",
+    "static/media/REM-VariableFont_wght.ttf": "/portfolio/static/media/REM-VariableFont_wght.fd7b44497f4ba14249a3.ttf",
+    "static/media/oppnet-logo.jpg": "/portfolio/static/media/oppnet-logo.a134369baff3ac5276d8.jpg",
+    "static/media/MLT-logo.jpg": "/portfolio/static/media/MLT-logo.4823a43d8f2b0b2c16a2.jpg",
+    "static/media/break-through-tech.png": "/portfolio/static/media/break-through-tech.97c36886569b7b066af6.png",
+    "static/media/ctp-logo-square.png": "/portfolio/static/media/ctp-logo-square.57c4c8517df448c781ad.png",
+    "static/media/code-path-logo.jpg": "/portfolio/static/media/code-path-logo.147432dcd62df1787f43.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.efb52407.css.map": "/portfolio/static/css/main.efb52407.css.map",
+    "main.d0705c28.js.map": "/portfolio/static/js/main.d0705c28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efb52407.css",
+    "static/js/main.d0705c28.js"
+  ]
+}
