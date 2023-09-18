@@ -11,7 +11,7 @@ const Navbar = () => {
                     <li className="link-ele"><Link to="experience-container" spy={true} smooth={true} duration={100}>Resume</Link></li>
                     <li className="link-ele"><Link to="project-img" spy={true} smooth={true} duration={100}>Projects</Link></li>
                     <li className="link-ele"><Link to="affiliations-container" spy={true} smooth={true} duration={100}>Affiliations</Link></li>
-                    <li className="link-ele"><Link to="" spy={true} smooth={true} duration={100}>Contact</Link></li>
+                    <li className="link-ele"><Link to="contact-container" spy={true} smooth={true} duration={100}>Contact</Link></li>
                 </ul>
             </nav>
         </div>
